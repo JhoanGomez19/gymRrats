@@ -1,0 +1,89 @@
+:root {
+    --main-salmon: #f92479;
+    --main-gray:
+}
+
+html {
+    font-size: 16px;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80px;
+    align-items: center;
+    height: 200px;
+    border-top: var(--main-salmon) solid 4px;
+
+}
+
+/* Links comerciales */
+
+header nav .redirect-category-container img {
+    width: 150px;
+    border-radius: 30px;
+}
+
+header nav .redirect-category-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-right: 20px;
+}
+
+header nav .redirect-category-container li {
+    list-style: none;
+
+}
+
+header nav .redirect-category-container li a {
+    text-decoration: none;
+    color: var(--main-salmon);
+    font-size: 1.1rem;
+    font-family: "Quicksand", sans-serif;
+}
+header nav .redirect-category-container li a:hover {
+    color: #f0a9c5;
+}
+
+/* Registros y inicios de sesión */
+
+header nav .log-redirection {
+    display: flex;
+    gap: 30px;
+
+}
+
+header nav .log-redirection li {
+    list-style: none;
+}
+
+header nav .log-redirection li a {
+    text-decoration: none;
+    color: rgb(198 198 198);
+    font-size: 0.9rem;
+    font-family: "Quicksand", sans-serif;
+
+}
+header nav .log-redirection li a:hover {
+    color: rgb(170, 156, 156);
+}
+
+/* Texto principal */
+
+header nav h1 {
+    font-size: 1.3rem;
+    color: var(--main-salmon);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
